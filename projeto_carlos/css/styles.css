@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main {
+    flex:1.4;
+    padding: 2rem 4rem;
+}
+
+.marca {
+    padding-top: 0.5rem;
+    width: 200px;
+    padding-bottom: 0.2rem;
+}
+
+.risco {
+    padding-bottom: 1rem;
+}
+
+.titulo-principal{
+    padding-bottom: 0.7rem;
+}
+
+.data{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #db7500;
+    padding-bottom: 0.8rem;
+}
+
+.descricao{
+    padding-bottom: 2rem;
+}
+
+.palestrantes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.palestrantes{
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1.5rem;
+}
+
+.palestrantes-card{
+    border-radius: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 18px;
+    width: 180px;
+    text-align: center;
+    background: linear-gradient(135deg, #e7bf83 0%, #FF8800 100%);
+}
+
+.palestrantes-card img{
+    padding: 1rem 0.5rem 0 0.5rem;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.nome-palestrante{
+    font-weight: 500;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.desc-palestrante{
+    font-size: .7rem;
+    font-weight: 500;
+    color:  #000000;
+}
+
+#form-container{
+    flex: 1;
+    background-size: cover;
+    background-image: url(/projeto_carlos/img/1061.jpg);
+    color: #fff;
+
+}
+
+.form-content{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-content p{
+    margin-bottom: 1rem;
+}
+
+#form-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+#form-cadastro input{
+    padding: 0.8rem 0.6rem;
+    border:none;
+    border-radius: 3px;
+}
+
+#name-container {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+#email {
+    min-width: 100%;
+}
+
+#form-cadastro input[type="submit"] {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+#form-cadastro input[type="submit"]:hover {
+    background-color: #fff;
+    color: #FE8800;
+  }
+
+.form-content h4{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    align-items: start;
+}
+
+#beneficios{
+    text-align: left;
+    align-self: start;
+}
+
+#beneficios h4{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+#beneficios ul{
+    list-style-position: inside;
+}
+
+#beneficios li{
+    padding-bottom: 0.5rem;
+}
